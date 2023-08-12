@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <Link rel="style" href="./css/main.css"></Link> -->
+    <Link rel="stylesheet" href="./css/main.css"></Link>
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class=" relative container  mx-auto p-6"> 
+        <!-- flex container -->
+        <div class="flex items-center justify-between">
+            <!-- pading from top -->
+            <div class="pt-2"> 
+                <img src="./manage-landing-page-master/manage-landing-page-master/images/logo.svg" alt="" srcset="">
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden space-x-6 md:flex">
+                <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+                <a href="#" class="hover:text-darkGrayishBlue">About us</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Community</a> 
+            </div>
+            <!-- button -->
+            <div class="flex justify-center md:justify-start">
+                <a href="#" class="hidden md:block p-3 px-6 py-2 text-white bg-brightRed rounded-full baseLine hover:bg-brightRedLight ">
+                    Get Started
+                </a>
+            </div>
+            <!-- HammBurgur menu -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburgur-top">
+
+                </span>
+                <span class="hamburgur-mid">
+
+                </span>
+                <span class="hamburgur-bottom">
+
+                </span>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <!-- <div class="h-fit md:hidden">
+            <div id="menu" class="absolute flex flex-col items-center self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 ">
+                <a href="#">Pricing</a>
+                <a href="#">Product</a>
+                <a href="#">About us</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a> 
+            </div>
+        </div> -->
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-center  px-6 mx-auto mt-10 space-y-0">
+            <div class="flex items-center flex-col mb-32 space-y-12 md:items-start md:w-1/2 md:mb-1">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                    Bring Everyone together to build projects.
+                </h1>
+                 <p class="text-darkGrayishBlue text-center md:text-left">
+                    Manage makes it simple for software teams to plan day-to-day while keeping the larger team goals in view.
+                 </p>
+                 <a href="#" class=" block p-3 px-6 py-2 w-fit text-white bg-brightRed rounded-full baseLine md:justify-start hover:bg-brightRedLight ">
+                    Get Started
+                </a>
+            </div>
+            <div>
+                <img src="./manage-landing-page-master/manage-landing-page-master/images/illustration-intro.svg" alt="#" srcset="">  
+            </div>
+        </div>
+    </section>
+    <!-- Feature Section -->
+    <section id="features">
+        <div class="flex flex-col container mb-28 mt-32 w-{348} mx-auto space-y-12  md:flex-row md:space-y-0">
+            <div class="flex flex-col pr-6">
+                <h1 class="font-bold text-2xl text-center md:text-3xl md:text-left mb-10">
+                    What's different about manage? 
+                </h1>
+                <p class="text-darkGrayishBlue text-center md:text-left">
+                    Manage provides all functionality your team needs, without the complexity. Our software is tailor made for mordern digital product teams.
+                </p>
+            </div>
+            <div class="flex flex-col mx-3 md:ml-5 md:pl-10 ">
+                <div class="flex flex-row mb-10">
+                    <div class="  block p-3 px-6 py-2 w-fit h-fit text-white bg-brightRed rounded-full baseLine  ">
+                        01
+                    </div>
+                    <div class="flex flex-col md:ml-5">
+                        <h2 class="mb-10  font-bold text-center md:text-1xl md:ml-2 md:text-left">
+                            Track Company - wide progress. 
+                        </h2>
+                        <p class="text-darkGrayishBlue text-center   md:text-left">
+                        See how your day - day tasks fit into the wilder vision. Go from tracking progress, at the milestnoe level , all the way done to the smallest of details.Never loose the sight of bigger picture again.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <div class="  block p-3 px-6 py-2 w-fit h-fit text-white bg-brightRed rounded-full baseLine  ">
+                        02
+                    </div>
+                    <div class="flex flex-col md:ml-5">
+                        <h2 class="mb-10  font-bold text-center md:text-1xl md:ml-2 md:text-left">
+                            Advanced built in reports. 
+                        </h2>
+                        <p class="text-darkGrayishBlue text-center   md:text-left">
+                        See how your day - day tasks fit into the wilder vision. Go from tracking progress, at the milestnoe level , all the way done to the smallest of details.Never loose the sight of bigger picture again.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <div class="  block p-3 px-6 py-2 w-fit h-fit text-white bg-brightRed rounded-full baseLine  ">
+                        03
+                    </div>
+                    <div class="flex flex-col md:ml-5">
+                        <h2 class="mb-10  font-bold text-center md:text-1xl md:ml-2 md:text-left">
+                            Everything you need in one place. 
+                        </h2>
+                        <p class="text-darkGrayishBlue text-center   md:text-left">
+                        See how your day - day tasks fit into the wilder vision. Go from tracking progress, at the milestnoe level , all the way done to the smallest of details.Never loose the sight of bigger picture again.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials!!! -->
+        <section id="testimonials">
+            <div class="flex flex-col items-center">
+                <div class="mb-32 ">
+                    <h1 class="font-bold text-3xl  text-darkBlue md:text-5xl">
+                        What they've said
+                    </h1>
+                </div>
+                <div>
+                    <div class="flex flex-col md:flex-row justify-around">
+                        <div class="flex flex-col mx-2 items-center bg-pink-5 mb-10 md:mx-0 md:w-1/4 md:mb-0">
+                            <img class="w-20 mb-10" src="./manage-landing-page-master/manage-landing-page-master/images/avatar-anisha.png">
+                                <h2 class="font-bold mb-10 text-1xl text-center text-darkBlue">Anisha li</h2>
+                                <p class="text-darkGrayishBlue text-center">
+                                    See how your day - day tasks fit into the wilder vision. Go from tracking progress, at the milestnoe level , all the way done to the smallest of details.Never loose the sight of bigger picture again.
+                                </p>
+                        </div>
+                        <div class="flex flex-col mx-2 items-center bg-pink-5 mb-10 md:mx-0 md:w-1/4 md:mb-0">
+                            <img class="w-20 mb-10" src="./manage-landing-page-master/manage-landing-page-master/images/avatar-ali.png">
+                            <h2 class="font-bold mb-10 text-1xl  text-center text-darkBlue">Ali Bravo</h2>
+                            <p class="text-darkGrayishBlue text-center">
+                                See how your day - day tasks fit into the wilder vision. Go from tracking progress, at the milestnoe level , all the way done to the smallest of details.Never loose the sight of bigger picture again.
+                            </p>
+                        </div>
+                        <div class="flex flex-col mx-2 items-center bg-pink-5 mb-10 md:mx-0 md:w-1/4 md:mb-0">
+                            <img class="w-20 mb-10" src="./manage-landing-page-master/manage-landing-page-master/images/avatar-richard.png">
+                            <h2 class="font-bold mb-10 text-1xl text-center text-darkBlue">Richard Watts</h2>
+                            <p class="text-darkGrayishBlue text-center">
+                            See how your day - day tasks fit into the wilder vision. Go from tracking progress, at the milestnoe level , all the way done to the smallest of details.Never loose the sight of bigger picture again.
+                            </p>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>

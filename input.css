@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body
+{
+    background-image: url('../manage-landing-page-master/manage-landing-page-master/images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    /* background-size: 800px; */
+    background-position: 90%-25%;
+}
+.hamburger
+{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+.hamburgur-top,
+.hamburgur-mid,
+.hamburgur-bottom
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2.4px;
+    background: #000;
+}
+.hamburgur-bottom
+{
+    transform: translateY(7px);
+}
+.hamburgur-top
+{
+    transform: translateY(14px);
+}
